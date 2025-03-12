@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: D-DIN, sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Main Header */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.logo {
+    position: absolute;
+    left: 30px;
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.navbar ul li {
+    position: relative;
+    padding: 5px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+/* section */
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+
+
+}
+
+.section-inner {
+    position: absolute;
+    bottom: 140px;
+    left: 100px;
+    max-width: 300px;
+    row-gap: 5px;
+
+}
+
+.section-inner h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+
+}
+
+.section-inner h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+/* background image0oko  */
+.section-a {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_8_Website_Desktop_5_e88d7dca53.jpg);
+}
+
+.section-b {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Vandy_desktop1_686164ccc7.jpg);
+}
+
+.section-c {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/20250302_Starlink_12_20_Streak_SPX_5015_DESKTOP_7accd5ba2e.jpg);
+}
+
+.section-d {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/IM_2_happycreekucs_DSC_9235_desktop_462580a756.jpg);
+}
+
+.section-e {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+}
+
+.section-f {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+}
+
+footer {
+    position: relative;
+    padding: 55px 50;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30PX;
+
+}
